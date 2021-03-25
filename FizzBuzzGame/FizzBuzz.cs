@@ -10,15 +10,19 @@ namespace FizzBuzzGame
     {
         public static string BobRepond(int nb)
         {
-            if(nb % 3 == 0 && nb != 15)
+            if(nb % 3 == 0 && nb % 5 == 0)
+            {
+                return "FizzBuzz";
+            }
+            if(nb % 3 == 0)
             {
                 return "Fizz";
             }
-            if(nb % 5 == 0 && nb != 15)
+            if(nb % 5 == 0)
             {
                 return "Buzz";
             }
-            return "FizzBuzz";
+            return "Rien";
         }
     }
 }
