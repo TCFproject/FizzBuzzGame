@@ -10,7 +10,7 @@ namespace FizzBuzzGame
     {
         public static string BobRepond(int nb)
         {
-            if(nb == 24)
+            if(nb % 3 == 0)
             {
                 return "Fizz";
             }
