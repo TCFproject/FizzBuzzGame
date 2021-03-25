@@ -1,4 +1,5 @@
 ﻿using System;
+using FizzBuzzGame;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace FizzBuzzGameTest
@@ -7,7 +8,7 @@ namespace FizzBuzzGameTest
     public class FizzBuzzTest
     {
         [TestMethod]
-        public void AliceDonneUnNombreMultipleDe3()
+        public void DoitDonnerFizzSiNombre24()
         {
             int nb = 24;
 

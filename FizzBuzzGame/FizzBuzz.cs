@@ -6,8 +6,11 @@ using System.Threading.Tasks;
 
 namespace FizzBuzzGame
 {
-    class FizzBuzz
+    public class FizzBuzz
     {
-        
+        public static string BobRepond(int nb)
+        {
+            return "Fizz";
+        }
     }
 }
