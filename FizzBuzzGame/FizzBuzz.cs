@@ -28,7 +28,7 @@ namespace FizzBuzzGame
 
         private static void AllowedValue(int nb)
         {
-            if (nb == 0)
+            if (nb <= 0)
             {
                 throw new Exception();
             }

@@ -45,5 +45,14 @@ namespace FizzBuzzGameTest
 
             String FizzStr = FizzBuzz.BobRepond(nb);
         }
+
+        [TestMethod]
+        [ExpectedException(typeof(Exception), "Doit être positif")]
+        public void DoitDonnerErreurSiNombreNegatif()
+        {
+            int nb = -9;
+
+            String FizzStr = FizzBuzz.BobRepond(nb);
+        }
     }
 }
