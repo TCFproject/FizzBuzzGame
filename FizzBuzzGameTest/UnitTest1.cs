@@ -54,5 +54,13 @@ namespace FizzBuzzGameTest
 
             String FizzStr = FizzBuzz.BobRepond(nb);
         }
+
+        [TestMethod]
+        public void DoitRepeterNombre23()
+        {
+            int nb = 23;
+            String actual = FizzBuzz.BobRepond(nb);
+            Assert.AreEqual(nb.ToString(), actual);
+        }
     }
 }
