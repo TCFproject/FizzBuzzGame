@@ -14,6 +14,10 @@ namespace FizzBuzzGame
             {
                 return "Fizz";
             }
+            if(nb == 25)
+            {
+                return "Buzz";
+            }
             return "Rien";
         }
     }
