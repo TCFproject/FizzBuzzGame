@@ -12,18 +12,19 @@ namespace FizzBuzzGameTest
         {
             int nb = 24;
 
-            String FizzStr = FizzBuzz.BobRepond(nb);
-
-            Assert.AreEqual("Fizz", FizzStr);
-        }
-
-        [TestMethod]
-        public void DoitDonnerFizzSiNombre9()
-        {
-            int nb = 9;
             String actual = FizzBuzz.BobRepond(nb);
 
             Assert.AreEqual("Fizz", actual);
+        }
+
+        [TestMethod]
+        public void DoitDonnerBuzzSiNombre25()
+        {
+            int nb = 25;
+
+            String actual = FizzBuzz.BobRepond(nb);
+
+            Assert.AreEqual("Buzz", actual);
         }
     }
 }
