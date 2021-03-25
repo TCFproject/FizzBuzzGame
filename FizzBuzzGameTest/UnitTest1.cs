@@ -18,16 +18,6 @@ namespace FizzBuzzGameTest
         }
 
         [TestMethod]
-        public void DoitDonnerBuzzSiNombre25()
-        {
-            int nb = 25;
-
-            String actual = FizzBuzz.BobRepond(nb);
-
-            Assert.AreEqual("Buzz", actual);
-        }
-
-        [TestMethod]
         public void DoitDonnerBuzzSiNombre35()
         {
             int nb = 35;
@@ -36,5 +26,17 @@ namespace FizzBuzzGameTest
 
             Assert.AreEqual("Buzz", actual);
         }
+
+        [TestMethod]
+        public void DoitDonnerFizzBuzzSiNombre15()
+        {
+            int nb = 15;
+
+            String actual = FizzBuzz.BobRepond(nb);
+
+            Assert.AreEqual("FizzBuzz", actual);
+        }
+
+
     }
 }
