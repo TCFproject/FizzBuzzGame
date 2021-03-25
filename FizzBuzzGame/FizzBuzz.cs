@@ -10,6 +10,7 @@ namespace FizzBuzzGame
     {
         public static string BobRepond(int nb)
         {
+            AllowedValue(nb);
             if(nb % 3 == 0 && nb % 5 == 0)
             {
                 return "FizzBuzz";
@@ -23,6 +24,14 @@ namespace FizzBuzzGame
                 return "Buzz";
             }
             return "Rien";
+        }
+
+        private static void AllowedValue(int nb)
+        {
+            if (nb == 0)
+            {
+                throw new Exception();
+            }
         }
     }
 }
