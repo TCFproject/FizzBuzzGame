@@ -23,7 +23,7 @@ namespace FizzBuzzGame
             {
                 return "Buzz";
             }
-            return "Rien";
+            return nb.ToString();
         }
 
         private static void AllowedValue(int nb)

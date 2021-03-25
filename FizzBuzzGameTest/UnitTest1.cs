@@ -62,5 +62,6 @@ namespace FizzBuzzGameTest
             String actual = FizzBuzz.BobRepond(nb);
             Assert.AreEqual(nb.ToString(), actual);
         }
+
     }
 }
