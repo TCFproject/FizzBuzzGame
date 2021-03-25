@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzzGame", "FizzBuzzGame\FizzBuzzGame.csproj", "{81600E0B-8DA8-4ECE-982C-44425FAA8E37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzzGameTest", "FizzBuzzGameTest\FizzBuzzGameTest.csproj", "{D29EF398-350F-42D4-B365-14F1A6A1DCEE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{81600E0B-8DA8-4ECE-982C-44425FAA8E37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81600E0B-8DA8-4ECE-982C-44425FAA8E37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81600E0B-8DA8-4ECE-982C-44425FAA8E37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81600E0B-8DA8-4ECE-982C-44425FAA8E37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D29EF398-350F-42D4-B365-14F1A6A1DCEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D29EF398-350F-42D4-B365-14F1A6A1DCEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D29EF398-350F-42D4-B365-14F1A6A1DCEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D29EF398-350F-42D4-B365-14F1A6A1DCEE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1CB07097-F78E-4AD5-A873-C7705ABF7AF3}
+	EndGlobalSection
+EndGlobal
