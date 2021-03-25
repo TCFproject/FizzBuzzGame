@@ -37,6 +37,15 @@ namespace FizzBuzzGameTest
             Assert.AreEqual("FizzBuzz", actual);
         }
 
+        [TestMethod]
+        public void DoitDonnerFizzBuzzSiNombre45()
+        {
+            int nb = 45;
+
+            String actual = FizzBuzz.BobRepond(nb);
+
+            Assert.AreEqual("FizzBuzz", actual);
+        }
 
     }
 }
