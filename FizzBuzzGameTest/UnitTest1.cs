@@ -38,14 +38,12 @@ namespace FizzBuzzGameTest
         }
 
         [TestMethod]
-        public void DoitDonnerFizzBuzzSiNombre45()
+        [ExpectedException(typeof(Exception), "Doit être supérieur à 0")]
+        public void DoitDonnerErreurSiNombre0()
         {
-            int nb = 45;
+            int nb = 0;
 
-            String actual = FizzBuzz.BobRepond(nb);
-
-            Assert.AreEqual("FizzBuzz", actual);
+            String FizzStr = FizzBuzz.BobRepond(nb);
         }
-
     }
 }
